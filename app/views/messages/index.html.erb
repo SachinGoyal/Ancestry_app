@@ -1,0 +1,5 @@
+    <% "Messages" %>  
+      
+    <%= nested_messages @messages.arrange(:order => :created_at) %>  
+      
+    <%#= render "form" %>  
